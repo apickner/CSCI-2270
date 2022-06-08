@@ -1,0 +1,6 @@
+----------CSCI 2270---Gupta----------
+
+The pictures in the zip file are for your reference only. Please type this out on your own editor, then EXECUTE it with "g++ -std=c++11" the way it was shown in class.
+This should help you revise the fundamentals of c++. We will cover more in the next lecture.
+
+Please complete the reading assignments and go through the revision material to be fully prepared for the class.

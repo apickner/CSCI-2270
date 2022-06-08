@@ -1,0 +1,24 @@
+I've created a Python GUI. Basically, I built this as a simple interface based on the
+CLI program I created. It works the same in that I compile the C++ and run it through
+python. This was fun because I could learn about the Python library that deals with
+subprocess. Also, this is my first GUI ever in Python, so I wanted to keep it as simple
+as possible.
+
+You should see a c++ folder here as well...
+To get up and running, just run:
+
+    python TwitterMarkovChainGUI.py
+
+It dawned on me today (Wednesday evening) that whoever runs these programs that I provide
+may not have all of the specific python libraries installed. In the case that both
+my Python Command Line Interface and GUI both fail, you can just utilize my C++.
+To do this, go to one of the C++ folders included in both of my programs.
+
+To compile:
+g++ HashTable.cpp ProductionWordGraphClass.cpp MainDriver.cpp TextTools.cpp FileToString.cpp AuthorStruct.cpp -std=c++11
+
+To run the executable:
+./a.out {file_path of tweets} {markov order}
+
+Example:
+./a.out /Users/AndrewMacbook/Desktop/realDonaldTrump.txt 3

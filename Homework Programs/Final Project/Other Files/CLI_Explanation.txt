@@ -1,0 +1,27 @@
+I've created a Python script that handles all of the user input, and I am working
+on getting to a basic GUI soon. Basically, I built the Python script to go out and
+get my twitter data, and then I used C++ to create the graph and generate the text.
+
+You should see a c++ file...
+However, to get up and running, just run:
+
+    python TwitterMarkovChainGenerator.py
+
+This will take you to my program. Enter a valid file location, a valid twitter handle,
+and the max # of tweets you want collected. My program should prompt the user for
+valid input if the input is not actually valid. From there (within Python), I compile the C++, and
+enter a loop that executes my C++.
+
+It dawned on me today (Wednesday evening) that whoever runs these programs that I provide
+may not have all of the specific python libraries installed. In the case that both
+my Python Command Line Interface and GUI both fail, you can just utilize my C++.
+To do this, go to one of the C++ folders included in both of my programs.
+
+To compile:
+g++ HashTable.cpp ProductionWordGraphClass.cpp MainDriver.cpp TextTools.cpp FileToString.cpp AuthorStruct.cpp -std=c++11
+
+To run the executable:
+./a.out {file_path of tweets} {markov order}
+
+Example:
+./a.out /Users/AndrewMacbook/Desktop/realDonaldTrump.txt 3

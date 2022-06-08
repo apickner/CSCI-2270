@@ -1,0 +1,13 @@
+I've created a Python script that handles all of the user input, and I am working
+on getting to a basic GUI soon. Basically, I built the Python script to go out and
+get my twitter data, and then I used C++ to create the graph and generate the text.
+
+All of the files should be in the same directory.
+To get up and running, just run:
+
+    python TwitterMarkovChainGenerator.py
+
+This will take you to my program. Enter a valid file location, a valid twitter handle,
+and the max # of tweets you want collected. My program should prompt the user for
+valid input if the input is not actually valid. From there (within Python), I compile the C++, and
+enter a loop that executes my C++.

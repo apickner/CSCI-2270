@@ -1,0 +1,17 @@
+So this problem is similar to the towers of Hanoi, and that's exactly how I tackled it.
+
+I used a mainQueue that would actually hold the values in the correct 'LIFO order' so to speak. My holdingQueue was used to rearrange the values.
+
+For example, in my push method, I add the value to the beginning of the empty holdingQueue and then copy over the mainQueue into the end of holding queue.
+Once this is done, I call the STL queue "swap" method on my two queues to transfer the virtual stack from my holdingQueue to the mainQueue. Once this is done, I empty out holdingQueue for the next time around.
+
+Another example: my "pop" method dequeues an item in the mainQueue which would be the top of our virtual stack because the way my "push" method makes the most recently added item at the front of mainQueue.
+
+The most "computationally complex" method is my push method. The runtime function would look something like this: RT(n) = n + 2n + 1 + 1 + 1
+This would translate to big-O: O(n)
+
+Overall, all of my methods have linear time or better, so I guess you could say that my QueueStack has O(n)...? 
+
+To compile this program you would need to:
+
+g++ CodeChallenge2.cpp CodeChallenge2Main.cpp -std=c++11

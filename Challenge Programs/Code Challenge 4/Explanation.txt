@@ -1,0 +1,13 @@
+So (after I knocked it out) I know that the problem wants us to answer this in terms of graphs and BFS...
+
+However, I implemented a very straightforward program that prints the board for the user and then prints how many spaces Ironman would need to move to get to Thanos. 
+
+I think my way was a little bit better for 2 main reasons:
+	
+	I do not need to deal with adj lists, & storing unvisited arrays/vectors
+
+	Also, after I completed the challenge and looked back at it, I realized the challenge dealt with graphs and BFS. It allowed me to google up some real world scenarios that utilize graphs. I was unsure how to represent a game board or square matrix as a graph, but the googling made me see some interesting ways to represent real world things using graphs
+
+My program take O(n^2) time to find the indices of Ironman and Thanos, then does some basic arithmetic to figure out how many spaces Ironman must go.
+
+Lastly, my program was built under the assumption that Ironman cannot move diagonally and to win the battle Ironman must be on a horizontally or vertically adjacent square.

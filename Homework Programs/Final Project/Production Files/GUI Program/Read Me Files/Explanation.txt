@@ -1,0 +1,10 @@
+I've created a Python GUI. Basically, I built this as a simple interface based on the
+CLI program I created. It works the same in that I compile the C++ and run it through
+python. This was fun because I could learn about the Python library that deals with
+subprocess. Also, this is my first GUI ever in Python, so I wanted to keep it as simple
+as possible.
+
+You should see a c++ folder here as well...
+To get up and running, just run:
+
+    python TkinterCustom.py

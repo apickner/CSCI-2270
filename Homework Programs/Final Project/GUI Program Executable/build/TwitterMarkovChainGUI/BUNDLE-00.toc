@@ -1,0 +1,3 @@
+([('TwitterMarkovChainGUI',
+   '/Users/AndrewMacbook/Documents/Csci 2270/Homework Programs/Final Project/GUI Program copy/dist/TwitterMarkovChainGUI',
+   'EXECUTABLE')],)
